@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+  <section name="Game">
+
+    <sprite name="player">
+      <image file="gfx/player.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="mine">
+      <image file="gfx/ball.pcx"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+	 <sprite name="chainsawSprite">
+      <image file="gfx/chainsaw_1.png"/>
+      <image file="gfx/chainsaw_2.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+		<animation loop="yes" speed="5"></animation>
+    </sprite>
+
+    <sprite name="knifeSlash">
+      <image file="gfx/knifeslash.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="crosshair">
+      <image file="gfx/crosshair.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="zombie">
+      <image file="gfx/zombie.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="strongzombie">
+      <image file="gfx/strongzombie.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="fastzombie">
+      <image file="gfx/fastzombie.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="bullet">
+      <image file="gfx/bullet.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+    
+     <sprite name="nuke">
+      <image file="gfx/nuke.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="mines">
+      <image file="gfx/mines.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="health">
+      <image file="gfx/health.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+    </sprite>
+
+    <sprite name="blood">
+<!--		<image file="gfx/blood_1.png"/>-->
+		<image file="gfx/blood_2.png"/>
+		<image file="gfx/blood_3.png"/>
+		<image file="gfx/blood_4.png"/>
+		<translation origin="center"/>
+		<rotation origin="center"/>
+		<animation loop="no" speed="75"></animation>
+    </sprite>
+
+	 <texture name="background" file="gfx/background.png"/>
+    <texture name="dirt" file="gfx/dirt.png"/>
+	 <texture name="wall" file="gfx/wall.png"/>
+
+	<sprite name="explosion">
+		<image file="gfx/explosion/explosion_01.png" />
+		<image file="gfx/explosion/explosion_02.png" />
+		<image file="gfx/explosion/explosion_03.png" />
+		<image file="gfx/explosion/explosion_04.png" />
+		<image file="gfx/explosion/explosion_05.png" />
+		<image file="gfx/explosion/explosion_06.png" />
+		<image file="gfx/explosion/explosion_07.png" />
+		<image file="gfx/explosion/explosion_08.png" />
+		<image file="gfx/explosion/explosion_09.png" />
+		<image file="gfx/explosion/explosion_10.png" />
+		<image file="gfx/explosion/explosion_11.png" />
+		<image file="gfx/explosion/explosion_12.png" />
+		<image file="gfx/explosion/explosion_13.png" />
+		<image file="gfx/explosion/explosion_14.png" />
+		<image file="gfx/explosion/explosion_15.png" />
+		<image file="gfx/explosion/explosion_16.png" />
+		<image file="gfx/explosion/explosion_17.png" />
+		<translation origin="center"/>
+		<rotation origin="center"/>
+		<animation loop="no" speed="100"></animation>
+	</sprite>
+
+	<sample name="zombieWave" file="sound/zombieWave.ogg"/>
+	<sample name="shotgun" file="sound/shotgun.ogg"/>
+	<sample name="shotgunReload" file="sound/shotgunReload.ogg"/>
+	<sample name="bite" file="sound/bite.ogg"/>
+	<sample name="ak47" file="sound/ak47.ogg"/>
+	<sample name="noAmmo" file="sound/noAmmo.ogg"/>
+	<sample name="gameMusic" file="sound/gameMusic.ogg"/>
+	<sample name="chainsaw" file="sound/chainsaw.ogg"/>
+<!--	<sample name="chainsawStart" file="sound/chainsawStart.ogg"/>-->
+	<sample name="combatKnife" file="sound/combatKnife.ogg"/>
+	<sample name="zombieHit" file="sound/zombieHit.ogg"/>
+	<sample name="gameOver" file="sound/gameOver.ogg"/>
+	<sample name="bombDetonate" file="sound/bombDetonate.ogg"/>
+	
+	
+  </section>
+</resources>
